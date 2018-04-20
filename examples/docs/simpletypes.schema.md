@@ -1,7 +1,3 @@
----
-template: reference
-foo: bar
----
 
 # Simple Types Schema
 
@@ -11,8 +7,8 @@ https://example.com/schemas/simpletypes
 
 This is an example schema with examples for multiple types and their constraints.
 
-| [Abstract](../abstract.md) | Extensible | [Status](../status.md) | Custom Properties | Additional Properties | Defined In |
-|----------------------------|------------|------------------------|-------------------|-----------------------|------------|
+| Abstract | Extensible | Status | Custom Properties | Additional Properties | Defined In |
+|----------|------------|--------|-------------------|-----------------------|------------|
 | Can be instantiated | No | Experimental | Forbidden | Permitted | [simpletypes.schema.json](simpletypes.schema.json) |
 
 # Simple Types Properties

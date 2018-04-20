@@ -1,7 +1,3 @@
----
-template: reference
-foo: bar
----
 
 # Arrays Schema
 
@@ -11,8 +7,8 @@ https://example.com/schemas/arrays
 
 This is an example schema with examples for multiple array types and their constraints.
 
-| [Abstract](../abstract.md) | Extensible | [Status](../status.md) | Custom Properties | Additional Properties | Defined In |
-|----------------------------|------------|------------------------|-------------------|-----------------------|------------|
+| Abstract | Extensible | Status | Custom Properties | Additional Properties | Defined In |
+|----------|------------|--------|-------------------|-----------------------|------------|
 | Can be instantiated | No | Experimental | Forbidden | Permitted | [arrays.schema.json](arrays.schema.json) |
 
 # Arrays Properties

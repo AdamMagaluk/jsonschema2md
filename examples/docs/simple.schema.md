@@ -1,7 +1,3 @@
----
-template: reference
-foo: bar
----
 
 # Simple Schema
 
@@ -11,8 +7,8 @@ https://example.com/schemas/simple
 
 This is a *very* simple example of a JSON schema. There is only one property.
 
-| [Abstract](../abstract.md) | Extensible | [Status](../status.md) | Custom Properties | Additional Properties | Defined In |
-|----------------------------|------------|------------------------|-------------------|-----------------------|------------|
+| Abstract | Extensible | Status | Custom Properties | Additional Properties | Defined In |
+|----------|------------|--------|-------------------|-----------------------|------------|
 | Can be instantiated | No | Experimental | Forbidden | Permitted | [simple.schema.json](simple.schema.json) |
 
 # Simple Properties

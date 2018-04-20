@@ -1,0 +1,43 @@
+{
+    "title": "Example Hyper-Schema",
+    "description": "This is a *very* simple Example Hyper-Schema. There is only one property.",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://example.com/schemas/hyper",
+    "type": "object",
+    "properties": {
+        "id": {
+            "title": "Article Identifier",
+            "type": "number"
+        },
+        "title": {
+            "title": "Article Title",
+            "type": "string"
+        },
+        "authorId": {
+            "type": "integer"
+        },
+        "imgData": {
+            "title": "Article Illustration (small)",
+            "type": "string",
+            "media": {
+                "binaryEncoding": "base64",
+                "type": "image/png"
+            }
+        }
+    },
+    "required": [
+        "id",
+        "title",
+        "authorId"
+    ],
+    "links": [
+        {
+            "rel": "full",
+            "href": "{id}"
+        },
+        {
+            "rel": "author",
+            "href": "/user?id={authorId}"
+        }
+    ]
+}

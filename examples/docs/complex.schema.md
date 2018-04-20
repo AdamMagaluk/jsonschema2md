@@ -1,7 +1,3 @@
----
-template: reference
-foo: bar
----
 
 # Complex References  Schema
 
@@ -11,8 +7,8 @@ https://example.com/schemas/complex
 
 This is an example schema that uses types defined in other schemas.
 
-| [Abstract](../abstract.md) | Extensible | [Status](../status.md) | Custom Properties | Additional Properties | Defined In |
-|----------------------------|------------|------------------------|-------------------|-----------------------|------------|
+| Abstract | Extensible | Status | Custom Properties | Additional Properties | Defined In |
+|----------|------------|--------|-------------------|-----------------------|------------|
 | Can be instantiated | No | Experimental | Forbidden | Permitted | [complex.schema.json](complex.schema.json) |
 ## Schema Hierarchy
 

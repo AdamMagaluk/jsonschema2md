@@ -1,7 +1,3 @@
----
-template: reference
-foo: bar
----
 
 # Extending Schema
 
@@ -11,8 +7,8 @@ https://example.com/schemas/extending
 
 This is an extending schema. It pulls `definitions` from other schemas.
 
-| [Abstract](../abstract.md) | Extensible | [Status](../status.md) | Custom Properties | Additional Properties | Defined In |
-|----------------------------|------------|------------------------|-------------------|-----------------------|------------|
+| Abstract | Extensible | Status | Custom Properties | Additional Properties | Defined In |
+|----------|------------|--------|-------------------|-----------------------|------------|
 | Can be instantiated | Yes | Experimental | Forbidden | Permitted | [extending.schema.json](extending.schema.json) |
 ## Schema Hierarchy
 
